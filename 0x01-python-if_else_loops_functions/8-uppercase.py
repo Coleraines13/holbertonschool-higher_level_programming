@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 
-
 def uppercase(str):
     for i in str:
         tmp = ord(i)
@@ -10,4 +9,4 @@ def uppercase(str):
         else:
             pr = i
             print('{}'.format(pr), end="")
-        print()
+            print()
