@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-def safe_print_integer(a, b):
+def safe_print_division(a, b):
     quotient = None
     try:
         quotient = a / b
