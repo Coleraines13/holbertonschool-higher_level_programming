@@ -2,10 +2,7 @@
 
 
 def multiple_returns(sentence):
-    if not sentence:
-        firchar = None
+    if len(sentence) == 0:
+        return (len(sentence), None)
     else:
-        firchar = sentence[0]
-        longi= len(sentence)
-        newtuple = longi, firchar
-        return(newtupla)
+        return (len(sentence), sentence[0])
