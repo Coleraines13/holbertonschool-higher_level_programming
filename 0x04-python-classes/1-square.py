@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""raising exceptions for square"""
 
+
+"""raising exceptions for square"""
 class Square:
     """created class Square"""
-    def __init__(self , size=0):
+    def __init__(self, size=0):
         """added attributes to square"""
         self.__size = size
         if type(size) != int:
