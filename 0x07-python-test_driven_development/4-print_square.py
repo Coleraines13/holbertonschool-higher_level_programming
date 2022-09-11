@@ -1,4 +1,4 @@
-#!@/usr/bin/python3
+#!/usr/bin/python3
 """ Temp """
 def print_square(size):
     if not isinstance(size, int):
