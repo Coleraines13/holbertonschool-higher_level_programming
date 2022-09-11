@@ -13,7 +13,7 @@ def matrix_divided(matrix, div):
                 raise TypeError(errorMessage)
     for lists in matrix:
         if len(lists) == 0:
-            raise TypeError(errorMeassge)
+            raise TypeError(errorMessage)
     if not isinstance(div, int) and not isinstance(div, float):
         raise TypeError("div must be a number")
     if not all(len(lists) == len(matrix[0]) for lists in matrix):
