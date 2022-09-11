@@ -107,4 +107,3 @@ Holberton?
 school.
 <BLANKLINE>
 fooo
-
