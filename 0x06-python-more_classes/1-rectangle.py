@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""this makes a rectangle"""
-
+"""
+this makes a rectangle
+"""
 
 class Rectangle:
     """
-    this instantiates the rectangle
-    """
+    this instantiates the rectangle"""
 
     def __intit__(self, width=0, height=0):
 
