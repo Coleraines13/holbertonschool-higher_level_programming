@@ -3,10 +3,9 @@
 this will define a rectangle object
 """
 
+
 class Rectangle:
-    """
-    this instantiates the rectangle
-    """
+    """this instantiates the rectangle"""
 
     def __init__(self, width=0, height=0):
         self.width = width
