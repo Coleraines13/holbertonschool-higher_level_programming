@@ -25,23 +25,23 @@ class Rectangle:
         else:
             self.__width = value
 
-        @property
-        def heigth(self):
-            return self.height
-        @heigth.setter
-        def height(self, value):
-            if type(value) is not int:
-                raise TypeError("height must be an integer")
-            elif value < 0:
-                raise ValueError("height must be >= 0")
-            else:
-                self.__heigth = value
+    @property
+    def heigth(self):
+        return self.height
+    @heigth.setter
+    def height(self, value):
+        if type(value) is not int:
+            raise TypeError("height must be an integer")
+        elif value < 0:
+            raise ValueError("height must be >= 0")
+        else:
+            self.__heigth = value
 
-         def area(self):
-             return self.__width * self.__heigth
+    def area(self):
+            return self.__width * self.__heigth
 
-         def perimeter(self):
-             if self.width == 0 or self.height == 0:
-                 return 0
-             else:
-                 return ((2 * self.__width) + (2 * self.__height))
+    def perimeter(self):
+        if self.width == 0 or self.height == 0:
+            return 0
+        else:
+            return ((2 * self.__width) + (2 * self.__height))

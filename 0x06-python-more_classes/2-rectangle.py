@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-this makes a rectangle
+this makes a Rectangle
 """
 
 
