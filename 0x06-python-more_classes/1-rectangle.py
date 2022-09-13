@@ -1,4 +1,5 @@
-#!/usr/bin/pythoni3
+#!/usr/bin/python3
+
 """
 this will define a rectangle
 """
