@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """
-this will define a rectangle
+makes a Rectangle
 """
-
 
 class Rectangle:
     def __intit__(self, width=0, height=0):
