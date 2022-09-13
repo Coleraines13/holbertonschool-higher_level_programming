@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" this will define a rectangle"""
+""" 
+This will define a rectangle
+"""
 
 
 class Rectangle:
