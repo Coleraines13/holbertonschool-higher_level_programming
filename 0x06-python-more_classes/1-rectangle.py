@@ -5,7 +5,9 @@ This will define a rectangle
 
 
 class Rectangle:
-    """ this instantiates the rectangle"""
+    """ 
+    this instantiates the rectangle
+    """
 
     def __intit__(self, width=0, height=0):
         self.width = width
@@ -13,6 +15,9 @@ class Rectangle:
 
     @property
     def width(self):
+        """
+        this returns the width property of our rectangle
+        """
         return self.__width
 
     @width.setter
