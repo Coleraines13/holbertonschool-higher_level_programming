@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ 
-This will define a rectangle
+this will define a rectangle
 """
 
 
