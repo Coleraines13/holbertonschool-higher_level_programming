@@ -3,7 +3,6 @@
 this will define a rectangle object
 """
 
-
 class Rectangle:
     """
     This instantiates the rectangle
