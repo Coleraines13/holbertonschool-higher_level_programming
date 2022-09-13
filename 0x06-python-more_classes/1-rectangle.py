@@ -8,7 +8,6 @@ class Rectangle:
     this instantiates the rectangle"""
 
     def __intit__(self, width=0, height=0):
-
         self.width = width
         self.heigth = heigth
 
