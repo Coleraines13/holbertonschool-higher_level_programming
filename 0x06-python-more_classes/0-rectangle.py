@@ -1,20 +1,31 @@
 #!/usr/bin/python3
-""" this will define a rectangle object """
+"""
+this will define a rectangle object
+"""
 
 
 class Rectangle:
-""" this instantiates the rectangle """
+    """
+    this instantiates the rectangle
+    """
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
     @property
     def width(self):
+        """
+        this returns the width property of our rectangle
+        """
 
         return self.__width
 
     @width.setter
     def width(self, value):
+        """
+        this sets the width of the rectangle
+        """
 
         if type(value) is not int:
             raise TypeError("width must be an integer")
@@ -25,6 +36,9 @@ class Rectangle:
 
         @property
         def height(self):
+            """
+            this sets the height of the rectangle
+            """
 
             return self.__height
 
