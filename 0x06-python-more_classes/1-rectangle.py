@@ -1,11 +1,9 @@
 #!/usr/bin/python3
+""" this will define a rectangle"""
 
 
 class Rectangle:
-    """
-    This instantiates the rectangle
-    """
-
+    """ this instantiates the rectangle"""
 
     def __intit__(self, width=0, height=0):
         self.width = width
