@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""basegeomatry"""
+"""basegeometry"""
 
 
 class BaseGeometry:
     """contains functions area(), integer_validator()"""
-    def area(self)
+    def area(self):
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
