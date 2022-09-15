@@ -5,7 +5,7 @@
 class BaseGeometry:
     """contains functions area(), integer_validator()"""
     def area(self)
-    raise Exception("area() is not implemented")
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """function that validates 'value' """
