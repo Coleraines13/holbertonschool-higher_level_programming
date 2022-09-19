@@ -4,8 +4,6 @@
 
 def number_of_line(filename=""):
     """write in text file"""
-    with open(filename, 'r') as f:
-        i = 0
-        for lines in f:
-            i += 1
-    return(i)
+    with open(filename, 'w') as f:
+        f.write(text)
+        return len(text)
