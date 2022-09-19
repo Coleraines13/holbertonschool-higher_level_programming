@@ -3,6 +3,7 @@
 
 
 def read_file(filename=""):
+    """open and reads all a line in file"""
     with open(filename, 'r') as f:
         for i in f:
             print("{}".format(i), end="")
