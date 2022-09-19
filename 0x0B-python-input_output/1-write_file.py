@@ -3,6 +3,7 @@
 
 
 def number_of_line(filename=""):
+    """write in text file"""
     with open(filename, 'r') as f:
         i = 0
         for lines in f:
