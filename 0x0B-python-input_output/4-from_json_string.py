@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+"""input/output"""
+
+
+import json
+
+
+def from_json_string(my_str):
+    """json"""
+    json_object = json.loads(my_str)
+    return (json_object)
