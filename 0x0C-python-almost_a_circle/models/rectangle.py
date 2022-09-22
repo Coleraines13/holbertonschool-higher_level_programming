@@ -65,7 +65,7 @@ class Rectangle(Base):
         """calculates the area of the rectangle"""
         return self.__height * self.__width
 
-    def area(self):
+    def display(self):
         """print rectangle"""
         for i in range(self.__y):
             print("\n", end='')
@@ -81,7 +81,7 @@ class Rectangle(Base):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
             self.id, self.x, self.y, self.width, self.height)
 
-    def update(self, @args, **kwargs):
+    def update(self, *args, **kwargs):
         """add arguments"""
         attr = ['id', 'width', 'height', 'x', 'y']
         i = 0
