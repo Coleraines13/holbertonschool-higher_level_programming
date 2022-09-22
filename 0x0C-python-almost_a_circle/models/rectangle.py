@@ -19,7 +19,7 @@ class Rectangle(Base):
 
     @property
     def height(self):
-        return self.heigth
+        return self.height
 
     @property
     def x(self):
