@@ -2,7 +2,7 @@
 """almost a circle"""
 
 
-class Bass:
+class Base:
     """making class for base shapes"""
     __nb_objects = 0
 
