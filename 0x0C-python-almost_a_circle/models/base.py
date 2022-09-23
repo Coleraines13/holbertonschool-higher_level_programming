@@ -3,6 +3,7 @@
 import json
 from os.path import exists
 
+
 class Base:
     """making class for base shapes"""
     __nb_objects = 0
@@ -33,7 +34,7 @@ class Base:
                 json_list.append(cls.to_dictionary(i))
             with open(filename, 'w') as f:
                 f.write(cls.to_json_string(json_list))
-    
+
     @staticmethod
     def from_json_string(json_string):
         """list of json string"""
