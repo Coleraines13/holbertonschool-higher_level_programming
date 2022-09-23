@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """almost a circle"""
-
+import json
+from os.path import exists
 
 class Base:
     """making class for base shapes"""
