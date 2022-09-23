@@ -7,7 +7,7 @@ class Square(Rectangle):
     """created a subclass of a square"""
     def __init__(self, size, x=0, y=0, id=None):
         """adds attribute to square"""
-        super().__init__(self, size, x, y, id)
+        super().__init__(size, size, x, y, id)
         self.size = size
 
     @property
