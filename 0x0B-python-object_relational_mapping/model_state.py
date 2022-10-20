@@ -1,4 +1,4 @@
-#!/use/bin/python3
+#!/usr/bin/python3
 """this lists all state objects in the database given"""
 import sys
 from sqlalchemy.orm import sessionmaker
